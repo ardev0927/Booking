@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="80dp"
+    android:layout_height="100dp"
+    android:id="@+id/ll_category_row"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/iv_main_cate_item"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/circle_white"
+        android:backgroundTint="@color/colorPrimary"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circle_white"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_main_cate"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/healthy_eating" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/tv_main_cate_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/profile_name"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_main_cate_places"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="10sp"
+            android:gravity="center"/>
+    </LinearLayout>
+</RelativeLayout>

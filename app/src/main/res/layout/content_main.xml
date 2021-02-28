@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?actionBarSize"-->
+<!--        android:background="@drawable/bg_gradient"-->
+<!--        android:gravity="center_vertical|right"-->
+<!--        android:paddingRight="20dp"-->
+<!--        >-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/user_toolbar"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:onClick="toggleLeftDrawer"-->
+<!--            android:src="@drawable/group_9205" />-->
+
+<!--    </LinearLayout>-->
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/main_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabTextColor="@color/border_color">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/ti_restaurant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tabitem_restaurant" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/ti_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tabitem_shop" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

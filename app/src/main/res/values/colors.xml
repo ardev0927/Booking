@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0a98db</color>
+    <color name="colorPrimaryDark">#cdcecf</color>
+    <color name="colorAccent">#0a98db</color>
+
+    <color name="colorSecondaryText">#FFFFFF</color>
+
+    <color name="gradient_start">#cdcecf</color>
+    <color name="gradient_end">#0a98db</color>
+    <color name="menu_text_color">#FFFFFF</color>
+    <color name="skip_color">#0681BB</color>
+    <color name="border_color">#707070</color>
+    <color name="profile_name">#1B1B1B</color>
+    <color name="line_color">#CFCFCF</color>
+    <color name="bg_color">#F9F9F9</color>
+    <color name="stroke_color">#0138CA</color>
+    <color name="skip_round_color">#F6F6F6</color>
+
+    <color name="colorProductBg1">#E02020</color>
+    <color name="colorProductBg2">#FA6400</color>
+    <color name="colorProductBg3">#F7B500</color>
+    <color name="colorProductBg4">#6DD400</color>
+    <color name="colorProductBg5">#44D7B6</color>
+    <color name="colorProductBg6">#32C5FF</color>
+    <color name="colorProductBg7">#0091FF</color>
+    <color name="colorProductBg8">#6236FF</color>
+    <color name="colorProductBg9">#B620E0</color>
+    <color name="colorProductBg10">#6D7278</color>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_loupe"
+        android:icon="@drawable/loupe"
+        android:title=""
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/item_cart"
+        android:icon="@drawable/cart"
+        app:showAsAction="always"
+        android:title=""
+        />
+    <item
+        android:title=""
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/item_point"
+        android:icon="@drawable/group_9275"
+        app:showAsAction="always"
+        android:title=""
+        />
+    <item
+        android:id="@+id/item_aim"
+        android:icon="@drawable/aim"
+        app:showAsAction="always"
+        android:title=""
+        />
+</menu>

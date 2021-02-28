@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Booking</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_failed">Login failed</string>
+    <string name="skip_one_txt">Track Order In Real-time with \n Live Traffic Conditions!</string>
+    <string name="skip_two_txt">Now Book a Table at Your \n Favorite Restaurant!</string>
+    <string name="login_text">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="terms_condition_text">With the sign up and the user of our app \n you accept your terms of service and the privacy policy</string>
+    <string name="terms_service_text">Terms of Service</string>
+    <string name="pricacy_policy_text">Privacy Policy</string>
+    <string name="welcome">Welcome</string>
+    <string name="hint_full_name_txt">Full Name</string>
+    <string name="hint_email_txt">Email</string>
+    <string name="hint_pw">Password</string>
+    <string name="hint_cpw">Confirm Password</string>
+    <string name="remember_me">    Remember Me</string>
+    <string name="forget_pw">Forget Password?</string>
+    <string name="get_started">Get Started</string>
+    <string name="fg_pw_content">It is a long established fact that a reader will be distracted by the readale content</string>
+    <string name="verification">Verification</string>
+    <string name="not_receive">Did not receive a code?</string>
+    <string name="resend_now">Resend Now</string>
+    <string name="skip_next">Next</string>
+    <string name="menu_profile_info">Profile info</string>
+    <string name="menu_my_booking">My booking</string>
+    <string name="menu_my_voucher">My voucher</string>
+    <string name="menu_customer_support">Customer support</string>
+    <string name="menu_payment_method">Payment method</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Log out</string>
+    <string name="skip_one_text">Skip</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="profile_info">My Profile</string>
+    <string name="default_username">Tim James</string>
+    <string name="default_userid">User id: 1023</string>
+    <string name="default_profile_email">timjames@gmail.com</string>
+    <string name="profile_location">Location</string>
+    <string name="profile_favourite">Favourites</string>
+    <string name="profile_qa"><![CDATA[Q&A]]></string>
+    <string name="profile_vouchers">Vouchers</string>
+    <string name="profile_rattings">Ratting</string>
+    <string name="booking_title">My Booking</string>
+    <string name="default_booking_date">18 Nov, 2020</string>
+    <string name="default_booking_time">11:00 PM</string>
+    <string name="booking_now">Book Now</string>
+    <string name="previous_booking">Previous Bookings</string>
+    <string name="payment">Payment</string>
+    <string name="default_paypal_email">myself@me.com</string>
+    <string name="added_paypal_date">Added 15-02-2017</string>
+    <string name="default_visa_number">**** **** **** 0817</string>
+    <string name="default_mastercard_number">**** **** **** 2356</string>
+    <string name="visa_expired_date">Expires 10-19</string>
+    <string name="add_payment_method">Add Payment Method</string>
+    <string name="que">Que</string>
+    <string name="waiting">Waiting</string>
+    <string name="next_you">Next You</string>
+    <string name="number_ready">Your number \n is ready</string>
+    <string name="table_ready">Your table \n is ready</string>
+    <string name="cart">Cart</string>
+    <string name="cart_title">Red Shoe</string>
+    <string name="cart_description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et</string>
+    <string name="cart_size">Size(us)</string>
+    <string name="cart_size_one">4</string>
+    <string name="cart_size_two">5</string>
+    <string name="cart_size_three">6</string>
+    <string name="cart_size_four">7</string>
+    <string name="cart_color">Color:</string>
+    <string name="cart_prize">Prize:</string>
+    <string name="cart_real_price">$190.88</string>
+    <string name="cart_add_bucket">Add to bucket</string>
+    <string name="shop">Shop</string>
+    <string name="bloom_shop">Bloom Store</string>
+    <string name="bloom_store_content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, </string>
+    <string name="restaurant">Restaurant</string>
+    <string name="resturant_title">Panda Inn Mongolian Bar</string>
+    <string name="restuarant_content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, </string>
+    <string name="live">Live</string>
+    <string name="tabitem_restaurant">Restaurants</string>
+    <string name="tabitem_shop">Shops</string>
+    <string name="booking">Booking</string>
+    <string name="book_table">Book a table</string>
+    <string name="book_continue">Continue</string>
+    <string name="receive_table">Receive a table</string>
+    <string name="location">Location</string>
+    <string name="user_name">Tim James</string>
+    <string name="terms_service">Terms of Service</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_profile">SAVE</string>
+    <string name="profile_fullname">Full name</string>
+    <string name="profile_email">Email address</string>
+    <string name="type_search">Type to search</string>
+    <string-array name="mm_array">
+        <item>MM</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="yyyy_array">
+        <item>YYYY</item>
+        <item>2010</item>
+        <item>2011</item>
+    </string-array>
+    <string name="top_products">Top 20 Products</string>
+</resources>

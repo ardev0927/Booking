@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cd_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp">
+    
+    <ImageView
+        android:id="@+id/iv_cart_item"
+        android:layout_width="90dp"
+        android:layout_height="75dp"/>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape android:shape = "oval">
+            <solid android:color = "#CA011B"/>
+            <stroke android:color="@color/stroke_color"
+                android:width="1dp"/>
+        </shape>
+    </item>
+    <item android:state_focused = "false">
+        <shape android:shape = "oval">
+            <solid android:color = "#CA011B"/>
+        </shape>
+    </item>
+</selector>
